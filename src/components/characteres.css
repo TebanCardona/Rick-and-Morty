@@ -1,0 +1,11 @@
+div.info {
+  display: grid;
+  box-sizing: border-box;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  margin-top: 0.5rem;
+}
+div.card {
+  padding: 0.5rem;
+  min-width: 200px;
+  margin-top: 0.5rem;
+}
