@@ -6,6 +6,7 @@ const Paginacion = ({ prev, next, onPrevios, onNext }) => {
   };
   const handleNext = () => {
     onNext();
+    window.scrollTo(0, 0);
   };
   return (
     <nav>
