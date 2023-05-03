@@ -33,12 +33,8 @@ function App() {
   return (
     <div
       style={{
-        backgroundImage: `url(${
-          isBrowser ? (window.innerWidth > 600 ? image : imagePhone) : ""
-        })`,
-        backgroundSize: `${
-          isBrowser ? (window.innerWidth > 600 ? "" : "cover") : ""
-        }`,
+        backgroundImage: `url(${window.innerWidth > 600 ? image : imagePhone})`,
+        backgroundSize: `${window.innerWidth > 600 ? "" : "cover"}`,
         backgroundAttachment: "fixed",
       }}
     >
