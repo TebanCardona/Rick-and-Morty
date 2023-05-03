@@ -5,8 +5,8 @@ import { Characteres } from "../components/Characteres";
 import Paginacion from "../components/Paginacion";
 import image from "../images/thumb-1920-909641.webp";
 import imagePhone from "../images/Mobile-Wallpaper-Rick-and-Morty.jpg";
+const isBrowser = typeof window !== "undefined";
 function App() {
-  const isBrowser = typeof window !== "undefined";
   const [characters, setCharacters] = useState([]);
   const [info, setinfo] = useState({});
   const URL = "https://rickandmortyapi.com/api/character";
@@ -33,8 +33,12 @@ function App() {
   return (
     <div
       style={{
-        backgroundImage: `url(${window.innerWidth > 600 ? image : imagePhone})`,
-        backgroundSize: `${window.innerWidth > 600 ? "" : "cover"}`,
+        backgroundImage: `url(${
+          isBrowser ? (window.innerWidth > 600 ? image : imagePhone) : ""
+        })`,
+        backgroundSize: `${
+          isBrowser ? (window.innerWidth > 600 ? "" : "cover") : ""
+        }`,
         backgroundAttachment: "fixed",
       }}
     >
