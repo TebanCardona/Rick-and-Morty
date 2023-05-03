@@ -2,9 +2,9 @@
 Este proyecto es una aplicación web de React que utiliza Gatsby y consume la API de Rick and Morty para mostrar información sobre los personajes de la serie.
 
 ## Tecnologías utilizadas
--React
--Gatsby
--API de Rick and Morty
+- React
+- Gatsby
+- API de Rick and Morty
 ## Instalación y uso
 Clona este repositorio o descárgalo como ZIP.
 Abre una terminal en la carpeta del proyecto y ejecuta el comando npm install.
