@@ -1,49 +1,22 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal Starter
-</h1>
+##Rick and Morty Characters
+Este proyecto es una aplicación web de React que utiliza Gatsby y consume la API de Rick and Morty para mostrar información sobre los personajes de la serie.
 
-## 🚀 Quick start
+##Tecnologías utilizadas
+-React
+-Gatsby
+-API de Rick and Morty
+#Instalación y uso
+Clona este repositorio o descárgalo como ZIP.
+Abre una terminal en la carpeta del proyecto y ejecuta el comando npm install.
+Ejecuta el comando gatsby develop para iniciar el servidor local de Gatsby.
+Abre tu navegador y visita la dirección http://localhost:8000/ para ver la aplicación en acción.
+##Despliegue
+Este proyecto está desplegado en https://rickandmortyreactmaster.gatsbyjs.io/. Para desplegar tu propia versión, sigue estos pasos:
 
-1.  **Create a Gatsby site.**
-
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
-
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
-
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Netlify)
-
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
+Crea una cuenta en Gatsby Cloud.
+Conecta tu cuenta de GitHub o GitLab.
+Haz clic en el botón "New site from Git" y selecciona este repositorio.
+Configura los ajustes de construcción y despliegue según tus necesidades.
+¡Listo! Tu aplicación estará disponible en la dirección que Gatsby Cloud te proporcione.
+##Contribuciones
+Si encuentras algún error o deseas sugerir alguna mejora para este proyecto, ¡no dudes en hacer una contribución! Puedes abrir una issue o enviar un pull request.
