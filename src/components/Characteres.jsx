@@ -20,12 +20,7 @@ export const Characteres = ({ characteres = [] }) => {
                 <b>Gender:</b> {item.gender}
               </p>
             </div>
-            <img
-              src={item.image}
-              alt={item.name}
-              className="image"
-              tabIndex={"0"}
-            />
+            <img src={item.image} alt={item.name} className="image" />
             <div className="card-body">
               <h5 className="card-title">{item.name}</h5>
               <hr />
