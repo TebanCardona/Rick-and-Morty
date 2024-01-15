@@ -6,7 +6,7 @@ import Paginacion from "../components/Paginacion";
 import image from "../images/thumb-1920-909641.webp";
 import imagePhone from "../images/Mobile-Wallpaper-Rick-and-Morty.jpg";
 function App() {
-  const [isBrowser, setIsBrowser] = useState(false);
+  const isBrowser = typeof window !== "undefined";
   const [characters, setCharacters] = useState([]);
   const [info, setinfo] = useState({});
   const URL = "https://rickandmortyapi.com/api/character";
@@ -28,9 +28,6 @@ function App() {
   };
   useEffect(() => {
     fetchCharacters(URL);
-    if (isBrowser === false) {
-      typeof window !== "undefined" ? setIsBrowser(true) : null;
-    }
   }, []);
 
   return (

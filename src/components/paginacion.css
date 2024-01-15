@@ -3,10 +3,12 @@ ul.pagination {
   justify-content: center;
   padding: 0%;
 }
+
 li.page-item::marker {
   content: none;
 }
-button {
+
+.page-link {
   --color: rgb(24, 122, 122);
   font-family: inherit;
   display: inline-block;
@@ -23,7 +25,7 @@ button {
   position: relative;
 }
 
-button::before {
+.page-link::before {
   position: absolute;
   content: "";
   background: var(--color);
@@ -33,17 +35,17 @@ button::before {
   border-radius: 50%;
 }
 
-button:hover {
+.page-link:hover {
   color: white;
 }
 
-button:before {
+.page-link:before {
   top: 100%;
   left: 100%;
   transition: 0.3s all;
 }
 
-button:hover::before {
+.page-link:hover::before {
   top: -30px;
   left: -30px;
 }
